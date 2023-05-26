@@ -10,7 +10,7 @@ from PIL import Image
 # Setting page configurations
 st.set_page_config(page_title = 'Dashboard Book Recomendation', layout='wide', initial_sidebar_state='expanded')
 
-
+#
 # Creating initial apresentation 
 st.markdown("<h1 style = 'text-align: center;'> Analysing Book Rating Dataset </h1>", unsafe_allow_html = True)
 col1_, col2_, col3_ = st.columns(3)
