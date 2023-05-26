@@ -77,7 +77,6 @@ elif selectPage == 'Dashboard':
                     color = 'Count',
                     hover_name = 'Country',
                     scope="north america",
-                    co = px.colors.qualitative.
                     color_continuous_scale = px.colors.sequential.Viridis)
         fig2 = px.bar(dataviz.value_counts('Country', ascending = False),
                  x = dataviz.value_counts('Country', ascending = False).index,
